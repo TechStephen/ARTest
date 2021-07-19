@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		9924F178269F3C5D00FB6C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9924F177269F3C5D00FB6C44 /* AppDelegate.swift */; };
 		9924F17A269F3C5D00FB6C44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9924F179269F3C5D00FB6C44 /* ContentView.swift */; };
-		9924F17C269F3C5D00FB6C44 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 9924F17B269F3C5D00FB6C44 /* Experience.rcproject */; };
 		9924F17E269F3C6200FB6C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9924F17D269F3C6200FB6C44 /* Assets.xcassets */; };
 		9924F181269F3C6200FB6C44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9924F180269F3C6200FB6C44 /* Preview Assets.xcassets */; };
 		9924F18C269F3C6200FB6C44 /* ARPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9924F18B269F3C6200FB6C44 /* ARPlaygroundTests.swift */; };
 		9924F197269F3C6200FB6C44 /* ARPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9924F196269F3C6200FB6C44 /* ARPlaygroundUITests.swift */; };
+		9924F1A726A0A32900FB6C44 /* ARPlayground.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 9924F1A626A0A32900FB6C44 /* ARPlayground.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		9924F174269F3C5D00FB6C44 /* ARPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9924F177269F3C5D00FB6C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9924F179269F3C5D00FB6C44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9924F17B269F3C5D00FB6C44 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		9924F17D269F3C6200FB6C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9924F180269F3C6200FB6C44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9924F182269F3C6200FB6C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		9924F192269F3C6200FB6C44 /* ARPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9924F196269F3C6200FB6C44 /* ARPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPlaygroundUITests.swift; sourceTree = "<group>"; };
 		9924F198269F3C6200FB6C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9924F1A626A0A32900FB6C44 /* ARPlayground.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = ARPlayground.rcproject; path = ../../../../ARPlayground.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			children = (
 				9924F177269F3C5D00FB6C44 /* AppDelegate.swift */,
 				9924F179269F3C5D00FB6C44 /* ContentView.swift */,
-				9924F17B269F3C5D00FB6C44 /* Experience.rcproject */,
+				9924F1A626A0A32900FB6C44 /* ARPlayground.rcproject */,
 				9924F17D269F3C6200FB6C44 /* Assets.xcassets */,
 				9924F182269F3C6200FB6C44 /* Info.plist */,
 				9924F17F269F3C6200FB6C44 /* Preview Content */,
@@ -264,7 +264,7 @@
 			files = (
 				9924F17A269F3C5D00FB6C44 /* ContentView.swift in Sources */,
 				9924F178269F3C5D00FB6C44 /* AppDelegate.swift in Sources */,
-				9924F17C269F3C5D00FB6C44 /* Experience.rcproject in Sources */,
+				9924F1A726A0A32900FB6C44 /* ARPlayground.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
